@@ -58,6 +58,9 @@ cv2.drawContours(image = frame, contours = achandoContorno, contourIdx = -1, col
 cv2.imshow(janelaComFiltro, diferencaFinal)
 cv2.imshow(janelaSemFiltro, frame)
 ```
+### Resultado
+![img limiar 2](https://github.com/inhouuu/Limiarizacao/assets/45317498/8807f550-2e66-4b37-b602-f9f371e0815f)
+![img limiar 1](https://github.com/inhouuu/Limiarizacao/assets/45317498/e3231082-f5dd-4ec4-a83a-2285068c21b2)
 
 ## Conclusão
 
