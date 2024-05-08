@@ -45,8 +45,8 @@ diferenca2 = cv2.absdiff(segundoFrame, primeiroFrame)
 diferencaFinal = cv2.bitwise_and(diferenca1,diferenca2)
 ```
 
-Após identificar e montar a imagem referencial, mandaremos a mesma como parâmetro da função Limiar para conseguirmos apresentar o resultado.
-Resolvemos utilizar uma ferramenta de contorno para destacar os pontos que a função de limiarização nos trouxe, para este caso efetuamos a conversão do retorno da limiarização para um array de 8 bits e com isso passamos como parâmetro para o método findContours que faz a busca por alterações para ser utilizado no método drawContours que irá apresentar graficamente.
+Após identificar e montar a imagem referencial, passo a mesma como parâmetro da função Limiar para conseguir apresentar o resultado.
+Utilizei uma ferramenta de contorno para destacar os pontos que a função de limiarização trouxe, para este caso efetuei a conversão do retorno da limiarização para um array de 8 bits e com isso passar como parâmetro para o método findContours que faz a busca por alterações para ser utilizado no método drawContours que irá apresentar graficamente.
 Por final, apresentemos com o método OpenCV imshow, que irá retornar uma janela com o resultado.
 
 ```python
